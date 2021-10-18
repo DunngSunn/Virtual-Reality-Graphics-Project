@@ -11,13 +11,13 @@ public class CursorMode : MonoBehaviour
     private void OnGUI()
     {
         GUI.Label(new Rect(20f, 20f, 500f, 20f), "Press Q to hide/show cursor");
-        GUI.Label(new Rect(20, 40f, 500f, 20f), "Use WASD to move");
-        GUI.Label(new Rect(20f, 60f, 500f, 20f), "Press ESC to quit");
+        GUI.Label(new Rect(20f, 40f, 500f, 20f), "Press ESC to quit");
+        GUI.Label(new Rect(20, 60f, 500f, 20f), "Use WASD to move");
+        GUI.Label(new Rect(20f, 80f, 500f, 20f), "Press Space to jump");
     }
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
         Cursor.lockState = CursorLockMode.Locked;
         _lockCursor = true;
     }

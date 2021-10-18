@@ -26,6 +26,6 @@ public class LightingManager : MonoBehaviour
         RenderSettings.fogColor = preset.fogColor.Evaluate(timePercent);
 
         directionalLight.color = preset.directionalColor.Evaluate(timePercent);
-        directionalLight.transform.localRotation = Quaternion.Euler((timePercent * 360f) - 90f, 170f, 0f);
+        directionalLight.transform.localRotation = Quaternion.Euler((timePercent * 360f) - 90f, 180f, 0f);
     }
 }
