@@ -9,10 +9,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LightingManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Packages/CTI URP/CTI Runtime Components URP/Shaders/CTI URP Billboard.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ClickObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LightingManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zgGhQdCGAaOKq2wf88YrOju96O" />

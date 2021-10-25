@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52253573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 701737390}
@@ -322,11 +322,11 @@ MonoBehaviour:
     instanceCount: 152630
     index: 1
     type: 1
-    renderAsBillboard: 0
+    renderAsBillboard: 1
     prefab: {fileID: 0}
     billboard: {fileID: 2800000, guid: b24c3cd816cfc59488d60ce1c90ccb97, type: 3}
-    mainColor: {r: 0.6950513, g: 0.31011927, b: 0.9528302, a: 1}
-    secondaryColor: {r: 0.6892983, g: 0.4761481, b: 0.9433962, a: 1}
+    mainColor: {r: 0, g: 0, b: 1, a: 1}
+    secondaryColor: {r: 0, g: 0.7110317, b: 1, a: 1}
     linkColors: 0
     minMaxHeight: {x: 0.5, y: 1}
     minMaxWidth: {x: 0.8, y: 1.2}
@@ -426,13 +426,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 189479152}
   groundCheck: {fileID: 1591887845}
-  playerSpeed: 6
-  gravity: -9.8
-  jumpHeight: 2.5
   groundCheckDistance: 0.3
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  characterSpeed: 5
+  jumpHeight: 2.5
+  gravity: -9.8
 --- !u!114 &189479154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,7 +654,7 @@ MonoBehaviour:
   directionalLight: {fileID: 1010017906}
   preset: {fileID: 11400000, guid: d6c6c054b0217b146813702f6f2656af, type: 2}
   timeOfDay: 12
-  timeMultiplier: 5
+  hourPerRealSecond: 10
 --- !u!114 &719496338
 MonoBehaviour:
   m_ObjectHideFlags: 0

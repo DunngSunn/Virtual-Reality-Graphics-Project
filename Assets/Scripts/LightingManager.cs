@@ -1,20 +1,24 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using sc.terrain.vegetationspawner;
 using UnityEngine;
 
 public class LightingManager : MonoBehaviour
 {
+    [Header("Light references")]
     [SerializeField] private Light directionalLight;
     [SerializeField] private LightingPreset preset;
+    
+    [Header("Time")]
     [SerializeField, Range(0, 24)] private float timeOfDay;
-    [SerializeField, Range(1, 10)] private float timeMultiplier;
+    [SerializeField] private int hourPerRealSecond;
 
     private void Update()
     {
         if (Application.isPlaying)
         {
-            timeOfDay += Time.deltaTime / timeMultiplier;
+            timeOfDay += Time.deltaTime / hourPerRealSecond;
             timeOfDay %= 24;
             UpdateLighting(timeOfDay / 24f);
         }

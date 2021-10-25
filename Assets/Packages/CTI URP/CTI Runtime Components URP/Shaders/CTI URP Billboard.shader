@@ -126,7 +126,7 @@
                 inputData.viewDirectionWS = viewDirWS;
 
                 #if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR)
-                    inputData.shadowCoord = input.shadowCoord;
+                    // inputData.shadowCoord = input.shadowCoord;
                 #elif defined(MAIN_LIGHT_CALCULATE_SHADOWS)
                     inputData.shadowCoord = TransformWorldToShadowCoord(inputData.positionWS);
                 #else
@@ -175,7 +175,7 @@
                     output.positionWS = vertexInput.positionWS;
                 #endif
                 #if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR)
-                    output.shadowCoord = GetShadowCoord(vertexInput);
+                    // output.shadowCoord = GetShadowCoord(vertexInput);
                 #endif
 
                 output.positionCS = vertexInput.positionCS;
