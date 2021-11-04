@@ -6,7 +6,14 @@ using UnityEngine;
 
 public class CursorMode : MonoBehaviour
 {
-    private bool _lockCursor;
+    public static CursorMode instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public bool lockCursor;
 
     private void OnGUI()
     {
@@ -19,15 +26,15 @@ public class CursorMode : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        _lockCursor = true;
+        lockCursor = true;
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            _lockCursor = !_lockCursor;
-            Cursor.lockState = _lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+            lockCursor = !lockCursor;
+            Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

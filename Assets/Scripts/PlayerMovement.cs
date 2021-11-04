@@ -22,11 +22,24 @@ public class PlayerMovement : MonoBehaviour
     private float _xInput;
     private float _zInput;
     private bool _isGrounded;
+    private bool _increaseSpeed;
 
     private void Update()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _increaseSpeed = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            _increaseSpeed = false;
+        }
+        
         _xInput = Input.GetAxis("Horizontal");
         _zInput = Input.GetAxis("Vertical");
+
+        _xInput = _increaseSpeed ? _xInput * 2f : _xInput;
+        _zInput = _increaseSpeed ? _zInput * 2f : _zInput;
 
         _isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckDistance, whatIsGround);
         if (_isGrounded && _yVelocity.y < 0f)
