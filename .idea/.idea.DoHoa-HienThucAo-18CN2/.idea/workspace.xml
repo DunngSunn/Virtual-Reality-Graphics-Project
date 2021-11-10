@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1649d5-953d-4556-8c75-9000184ff9c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoHoa-HienThucAo-18CN2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoHoa-HienThucAo-18CN2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Oak Trees Package/Oak Trees Version 2.0/Sources URP/Materials/Oak medium_BillboardMaterial_URP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Oak Trees Package/Oak Trees Version 2.0/Sources URP/Materials/Oak medium_BillboardMaterial_URP.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Minimap.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Minimap.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DemoScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minimap.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Packages/CTI URP/CTI Runtime Components URP/Shaders/CTI URP Billboard.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ClickObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LightingManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RandomSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Minimap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CursorMode.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zgGhQdCGAaOKq2wf88YrOju96O" />
@@ -76,6 +83,8 @@
       <workItem from="1635296326294" duration="562000" />
       <workItem from="1635991343070" duration="1327000" />
       <workItem from="1635994135395" duration="4172000" />
+      <workItem from="1636540521409" duration="2758000" />
+      <workItem from="1636543659479" duration="965000" />
     </task>
     <servers />
   </component>
@@ -94,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
